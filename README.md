@@ -13,7 +13,7 @@ An application of quantum calculus [1] in deep learning and an extension of our 
 ```bash
 python runqact.py <mnist|cifar-10|cifar-100> <mlp|cnn|siamese|ae|resnet> <elu|qelu|nelu>
 ```
-where ```elu``` means Exponential Linear Units, ```qelu``` means its corresponding q-activation, and ```nelu``` means gradient noise injection [2]. See
+where ```elu``` means Exponential Linear Units, ```qelu``` means its corresponding q-activation, and ```nelu``` means gradient noise injection [3]. See
 ```bash
 python runqact.py --help
 ```
@@ -31,6 +31,7 @@ To repeat our reported results, see the scripts in the ```hpc``` directory.
 
 ## Cite
 
+```
 @article{qneurons,
   author={Frank Nielsen and Ke Sun},
   title={$q$-{N}eurons: {N}euron Activations based on Stochastic {J}ackson's Derivative Operators},
@@ -38,3 +39,4 @@ To repeat our reported results, see the scripts in the ```hpc``` directory.
   pages={(to appear)},
   year={2020}
 }
+```
